@@ -29,7 +29,7 @@ int main(){
 		GPIO_ResetBits(GPIOB, GPIO_Pin_0 | GPIO_Pin_1);
 		Delay_ms(1000);
 		// Dua dau ra cac chan set len muc 1
-		GPIO_SetBits(GPIOB, GPIO_Pin_0 | GPIO_Pin_1);
+		GPIO_SetBits(GPIOA, GPIO_Pin_0 | GPIO_Pin_1);
 		GPIO_SetBits(GPIOB, GPIO_Pin_0 | GPIO_Pin_1);
 		Delay_ms(1000);
 	}
