@@ -475,12 +475,12 @@ ARM Macro Assembler    Page 8
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=.\objects\startup_stm32f10x_md.d -o.\objects\startup_stm32f10x_md.
-o -ID:\STM32F103C8T6\spi\MDK\RTE -ID:\STM32F103C8T6\spi\MDK\RTE\Device\STM32F10
-3C8 -IC:\Keil_v5\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_v5\Keil\STM32F1xx_DFP\
-2.4.1\Device\Include -IC:\Keil_v5\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Dri
-ver\inc --predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 517" --
-predefine="_RTE_ SETA 1" --predefine="STM32F10X_MD SETA 1" --list=.\listings\st
-artup_stm32f10x_md.lst RTE\Device\STM32F103C8\startup_stm32f10x_md.s
+o -IE:\STM32F103\htnspi\MDK\RTE -IE:\STM32F103\htnspi\MDK\RTE\Device\STM32F103C
+8 -IC:\Keil_v5\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_v5\Keil\STM32F1xx_DFP\2.
+4.1\Device\Include -IC:\Keil_v5\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Drive
+r\inc --predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 517" --pr
+edefine="_RTE_ SETA 1" --predefine="STM32F10X_MD SETA 1" --list=.\listings\star
+tup_stm32f10x_md.lst RTE\Device\STM32F103C8\startup_stm32f10x_md.s
 
 
 
